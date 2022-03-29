@@ -1,6 +1,6 @@
 {
-    "v0.0.8": {
-        "display_name": "Basic analytics template",
-        "command": "init"
-    }
+    "display_name": "Basic analytics template",
+    "command": "init",
+    "author": "Daniel Wang",
+    "description": "Basic analytics template for OW Gryphon."
 }
