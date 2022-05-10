@@ -185,13 +185,8 @@ def remove_version_from_root_html(package_name, version, index_soup, latest_vers
     # Change the version in the main page
     anchor = index_soup.find('a', attrs={"href": f"{package_name}/"})
     spans = anchor.find_all('span')
-    print(spans[1].string)
-    print(spans[1].string.strip())
-    print(version)
-    print(latest_version)
     if spans[1].string.strip() == version:
         spans[1].string = f"\n{latest_version}\n"
-
         with open(INDEX_FILE, 'wb') as index:
             index.write(index_soup.prettify("utf-8"))
 
