@@ -7,3 +7,4 @@ title: "🔴 Delete package :"
 ## 🔴 Package deletion form
 
 - **Package name :** <!-- The exact name of the package -->
+- **Version :** <!-- The exact name of the version (optional), if not provided, all versions will be deleted -->
