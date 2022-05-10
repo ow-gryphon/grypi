@@ -5,6 +5,7 @@ import re
 import shutil
 
 from bs4 import BeautifulSoup
+from distutils.version import StrictVersion
 
 
 INDEX_FILE = "index.html"
@@ -145,6 +146,52 @@ def update(issue_ctx):
         index.write(soup.prettify("utf-8"))
 
 
+def sort_versions(versions: list) -> list:
+    versions.sort(key=lambda x: StrictVersion(x[1:]) if x[0] == 'v' else StrictVersion(x))
+    return versions
+
+
+def remove_version_from_template_html(package_name, version):
+    package_index = os.path.join(package_name, INDEX_FILE)
+
+    with open(package_index) as html_file:
+        soup = BeautifulSoup(html_file, "html.parser")
+
+    anchor = soup.find('div', attrs={"class": "container"})
+    links = anchor.find_all('a')
+    version_links = list(filter(lambda l: l.href.split('-')[-1] == version, links))
+    versions = list(map(lambda l: l.href.split('-')[-1], links))
+
+    if len(versions) <= 1:
+        if len(version_links) == 0:
+            raise RuntimeError("No matching version.")
+        else:
+            raise RuntimeError("No version left. Delete the whole template.")
+
+    assert len(version_links) != 0
+    version_link = version_links[0]
+    version_link.extract()
+
+    with open(package_index, 'wb') as index:
+        index.write(soup.prettify("utf-8"))
+
+    links = anchor.find_all('a')
+    versions = list(map(lambda l: l.href.split('-')[-1], links))
+    latest_version = sort_versions(versions)[-1]
+    return latest_version
+
+
+def remove_version_from_root_html(package_name, version, index_soup, latest_version):
+    # Change the version in the main page
+    anchor = index_soup.find('a', attrs={"href": f"{package_name}/"})
+    spans = anchor.find_all('span')
+    if spans[1].string == version:
+        spans[1].string = latest_version
+
+        with open(INDEX_FILE, 'wb') as index:
+            index.write(index_soup.prettify("utf-8"))
+
+
 def delete(issue_ctx):
     args = parse_issue(issue_ctx)
     print_args(args)
@@ -156,14 +203,40 @@ def delete(issue_ctx):
     if not package_exists(soup, n_package_name):
         raise ValueError("Package {} seems to not exists".format(n_package_name))
 
-    # Remove the package directory
-    shutil.rmtree(n_package_name)
+    def delete_whole_template():
+        # Remove the package directory
+        shutil.rmtree(n_package_name)
 
-    # Find and remove the anchor corresponding to our package
-    anchor = soup.find('a', attrs={"href": "{}/".format(n_package_name)})
-    anchor.extract()
-    with open(INDEX_FILE, 'wb') as index:
-        index.write(soup.prettify("utf-8"))
+        # Find and remove the anchor corresponding to our package
+        anchor = soup.find('a', attrs={"href": "{}/".format(n_package_name)})
+        anchor.extract()
+        with open(INDEX_FILE, 'wb') as index:
+            index.write(soup.prettify("utf-8"))
+
+    if "version" in args:
+        try:
+            # remove version from template/index.html
+            latest_version = remove_version_from_template_html(
+                package_name=n_package_name,
+                version=args['version']
+            )
+
+            # change version from index.html if it is the same as the deleted version
+            remove_version_from_root_html(
+                package_name=args['package name'],
+                version=args['version'],
+                index_soup=soup,
+                latest_version=latest_version
+            )
+        except RuntimeError as e:
+            if "No version left" in str(e):
+                delete_whole_template()
+            elif "No matching version" in str(e):
+                raise e
+            else:
+                raise e
+    else:
+        delete_whole_template()
 
 
 def main():
