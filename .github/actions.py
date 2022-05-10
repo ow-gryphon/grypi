@@ -159,8 +159,8 @@ def remove_version_from_template_html(package_name, version):
 
     anchor = soup.find('div', attrs={"class": "container"})
     links = anchor.find_all('a')
-    version_links = list(filter(lambda l: l.href.split('-')[-1] == version, links))
-    versions = list(map(lambda l: l.href.split('-')[-1], links))
+    version_links = list(filter(lambda l: l["href"].split('-')[-1] == version, links))
+    versions = list(map(lambda l: l["href"].split('-')[-1], links))
 
     if len(versions) <= 1:
         if len(version_links) == 0:
@@ -176,7 +176,7 @@ def remove_version_from_template_html(package_name, version):
         index.write(soup.prettify("utf-8"))
 
     links = anchor.find_all('a')
-    versions = list(map(lambda l: l.href.split('-')[-1], links))
+    versions = list(map(lambda l: l["href"].split('-')[-1], links))
     latest_version = sort_versions(versions)[-1]
     return latest_version
 
