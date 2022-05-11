@@ -1,9 +1,10 @@
-{
+[{
     "display_name": "Regression and Classification modeling for NCT Test 2",
     "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.",
     "dependencies": ["pandas","numpy", "scipy","matplotlib", "scikit-learn"],
     "keywords": ["sklearn", "regression", "classification", "logistic", "OLS"],
     "methodology": ["Regression", "Classification", "Supervised Learning" ],
     "author": "Daniel Wang",
-    "command": "generate"
+    "command": "generate",
+    "version": "0.0.2"
 }
