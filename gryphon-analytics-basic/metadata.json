@@ -1,1 +1,24 @@
-[{"display_name": "Basic analytics template", "command": "init", "author": "Daniel Wang", "description": "Basic analytics template for OW Gryphon.", "version": "0.0.16"}, {"display_name": "Basic analytics template", "command": "init", "author": "Daniel Wang", "description": "Basic analytics template for OW Gryphon.", "version": "0.0.19"}]
+[
+    {
+        "author": "Daniel Wang",
+        "command": "init",
+        "description": "Basic analytics template for OW Gryphon.",
+        "display_name": "Basic analytics template",
+        "version": "0.0.16"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "init",
+        "description": "Basic analytics template for OW Gryphon.",
+        "display_name": "Basic analytics template",
+        "version": "0.0.19"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "init",
+        "description": "Basic analytics template for OW Gryphon. IAUDHIASUH",
+        "display_name": "Basic analytics template",
+        "read_more_link": "www.yahoo.com.br",
+        "version": "0.0.20"
+    }
+]
