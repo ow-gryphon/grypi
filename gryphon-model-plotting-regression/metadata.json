@@ -1,0 +1,20 @@
+[
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [],
+        "description": "Plots to understand relationships between variables and model performance. This imports the Data Exploration template",
+        "display_name": "Plots for regression modeling",
+        "keywords": [
+            "Bivariate",
+            "Regression"
+        ],
+        "methodology": [
+            "Regression"
+        ],
+        "read_more_link": "TBD",
+        "topic": [],
+        "version": "0.0.1"
+    }
+]
