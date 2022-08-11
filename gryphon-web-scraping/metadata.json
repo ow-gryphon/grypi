@@ -1,0 +1,16 @@
+[
+    {
+        "author": "Vittor Faria Pereira",
+        "author_email": "vittor.pereira@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [],
+        "description": "A basic web scraping template made with the Beautiful Soup python library.",
+        "display_name": "Web scraping",
+        "keywords": [],
+        "methodology": [
+            "Data Exploration"
+        ],
+        "topic": [],
+        "version": "0.0.1"
+    }
+]
