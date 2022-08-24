@@ -12,5 +12,19 @@
         ],
         "topic": [],
         "version": "0.0.1"
+    },
+    {
+        "author": "Daniel Wang and Vittor Faria Pereira",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [],
+        "description": "Basic NLP toolkit template.",
+        "display_name": "NLP Basics",
+        "keywords": [],
+        "methodology": [
+            "NLP"
+        ],
+        "topic": [],
+        "version": "0.0.2"
     }
 ]
