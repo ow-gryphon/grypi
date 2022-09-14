@@ -44,5 +44,13 @@
         "display_name": "Basic analytics template",
         "read_more_link": "www.yahoo.com.br",
         "version": "0.0.23"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "init",
+        "description": "Basic analytics template for OW Gryphon.",
+        "display_name": "Basic analytics template",
+        "read_more_link": "www.yahoo.com.br",
+        "version": "0.0.24"
     }
 ]
