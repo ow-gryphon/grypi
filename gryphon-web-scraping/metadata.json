@@ -12,5 +12,21 @@
         ],
         "topic": [],
         "version": "0.0.1"
+    },
+    {
+        "author": "Vittor Faria Pereira",
+        "author_email": "vittor.pereira@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "beautifulsoup4"
+        ],
+        "description": "A basic web scraping template made with the Beautiful Soup (beautifulsoup4) library.",
+        "display_name": "Web scraping",
+        "keywords": [],
+        "methodology": [
+            "Data Parsing"
+        ],
+        "topic": [],
+        "version": "0.0.2"
     }
 ]
