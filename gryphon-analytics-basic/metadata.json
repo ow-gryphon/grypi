@@ -61,5 +61,14 @@
         "display_name": "Basic analytics project",
         "read_more_link": "https://github.com/ow-gryphon/gryphon-analytics-basic",
         "version": "0.0.25"
+    },
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "init",
+        "description": "Basic analytics template for OW Gryphon with folders for notebooks and re-usable code utilities",
+        "display_name": "Basic analytics project",
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-analytics-basic",
+        "version": "0.0.26"
     }
 ]
