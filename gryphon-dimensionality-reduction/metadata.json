@@ -49,5 +49,22 @@
         ],
         "topic": [],
         "version": "0.0.3"
+    },
+    {
+        "author": "Daniel Wang and Vittor Pereira",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [],
+        "description": "Dimensionality reduction tools and samples.",
+        "display_name": "Dimensionality reduction",
+        "keywords": [],
+        "methodology": [
+            "Data Exploration",
+            "Classification",
+            "Regression",
+            "Clustering"
+        ],
+        "topic": [],
+        "version": "0.0.4"
     }
 ]
