@@ -1,1 +1,42 @@
-[{"display_name": "Geocoding, Routing and Distance calculations with HERE Maps API", "command": "generate", "dependencies": [], "keywords": ["Mapping", "Routing", "Distance", "Geographical"], "methodology": ["Geographical Analyses"], "topic": [], "description": "Standardized Jupyter Notebook for Geocoding and Routing, using HERE Maps API (free for limited use)", "author": "Daniel Wang", "author_email": "daniel.wang@oliverwyman.com", "version": "0.0.1"}]
+[
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [],
+        "description": "Standardized Jupyter Notebook for Geocoding and Routing, using HERE Maps API (free for limited use)",
+        "display_name": "Geocoding, Routing and Distance calculations with HERE Maps API",
+        "keywords": [
+            "Mapping",
+            "Routing",
+            "Distance",
+            "Geographical"
+        ],
+        "methodology": [
+            "Geographical Analyses"
+        ],
+        "topic": [],
+        "version": "0.0.1"
+    },
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "pandas"
+        ],
+        "description": "Standardized Jupyter Notebook for Geocoding and Routing, using HERE Maps API (free for limited use)",
+        "display_name": "Geocoding, Routing and Distance calculations with HERE Maps API",
+        "keywords": [
+            "Mapping",
+            "Routing",
+            "Distance",
+            "Geographical"
+        ],
+        "methodology": [
+            "Geographical Analyses"
+        ],
+        "topic": [],
+        "version": "0.0.2"
+    }
+]
