@@ -1,1 +1,132 @@
-[{"display_name": "Regression and Classification modeling for NCT", "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.", "dependencies": ["pandas", "numpy", "scipy", "matplotlib", "scikit-learn"], "keywords": ["sklearn", "regression", "classification", "logistic", "OLS"], "methodology": ["Regression", "Classification", "Supervised Learning"], "author": "Daniel Wang", "command": "generate", "version": "0.0.1"}, {"display_name": "Regression and Classification modeling for NCT", "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.", "dependencies": ["pandas", "numpy", "scipy", "matplotlib", "scikit-learn"], "keywords": ["sklearn", "regression", "classification", "logistic", "OLS"], "methodology": ["Regression", "Classification", "Supervised Learning"], "author": "Daniel Wang", "command": "generate", "version": "0.0.2"}, {"display_name": "Regression and Classification modeling for NCT", "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.", "dependencies": ["pandas", "numpy", "scipy", "matplotlib", "scikit-learn"], "keywords": ["sklearn", "regression", "classification", "logistic", "OLS"], "methodology": ["Regression", "Classification", "Supervised Learning"], "author": "Daniel Wang", "command": "generate", "version": "0.0.3"}, {"display_name": "Regression and Classification modeling for NCT", "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.", "dependencies": ["pandas", "numpy", "scipy", "matplotlib", "scikit-learn"], "keywords": ["sklearn", "regression", "classification", "logistic", "OLS"], "methodology": ["Regression", "Classification", "Supervised Learning"], "author": "Daniel Wang", "command": "generate", "version": "0.0.4"}]
+[
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "scipy",
+            "matplotlib",
+            "scikit-learn"
+        ],
+        "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.",
+        "display_name": "Regression and Classification modeling for NCT",
+        "keywords": [
+            "sklearn",
+            "regression",
+            "classification",
+            "logistic",
+            "OLS"
+        ],
+        "methodology": [
+            "Regression",
+            "Classification",
+            "Supervised Learning"
+        ],
+        "version": "0.0.1"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "scipy",
+            "matplotlib",
+            "scikit-learn"
+        ],
+        "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.",
+        "display_name": "Regression and Classification modeling for NCT",
+        "keywords": [
+            "sklearn",
+            "regression",
+            "classification",
+            "logistic",
+            "OLS"
+        ],
+        "methodology": [
+            "Regression",
+            "Classification",
+            "Supervised Learning"
+        ],
+        "version": "0.0.2"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "scipy",
+            "matplotlib",
+            "scikit-learn"
+        ],
+        "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.",
+        "display_name": "Regression and Classification modeling for NCT",
+        "keywords": [
+            "sklearn",
+            "regression",
+            "classification",
+            "logistic",
+            "OLS"
+        ],
+        "methodology": [
+            "Regression",
+            "Classification",
+            "Supervised Learning"
+        ],
+        "version": "0.0.3"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "scipy",
+            "matplotlib",
+            "scikit-learn"
+        ],
+        "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.",
+        "display_name": "Regression and Classification modeling for NCT",
+        "keywords": [
+            "sklearn",
+            "regression",
+            "classification",
+            "logistic",
+            "OLS"
+        ],
+        "methodology": [
+            "Regression",
+            "Classification",
+            "Supervised Learning"
+        ],
+        "version": "0.0.4"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "scipy",
+            "matplotlib",
+            "scikit-learn"
+        ],
+        "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.",
+        "display_name": "Regression and Classification modeling for NCT",
+        "keywords": [
+            "sklearn",
+            "regression",
+            "classification",
+            "logistic",
+            "OLS"
+        ],
+        "methodology": [
+            "Regression",
+            "Classification",
+            "Supervised Learning"
+        ],
+        "version": "0.0.5"
+    }
+]
