@@ -1,1 +1,122 @@
-[{"display_name": "Basic data exploration for NCT", "dependencies": ["pandas", "numpy", "matplotlib"], "keywords": ["pandas", "data exploration", "NCT"], "methodology": ["Data Exploration"], "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.", "command": "generate", "author": "Daniel Wang", "version": "0.0.1"}, {"display_name": "Basic data exploration for NCT", "dependencies": ["pandas", "numpy", "matplotlib"], "keywords": ["pandas", "data exploration", "NCT"], "methodology": ["Data Exploration"], "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.", "command": "generate", "author": "Daniel Wang", "version": "0.0.2"}, {"display_name": "Basic data exploration for NCT", "dependencies": ["pandas", "numpy", "matplotlib"], "keywords": ["pandas", "data exploration", "NCT"], "methodology": ["Data Exploration"], "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.", "command": "generate", "author": "Daniel Wang", "version": "0.0.3"}, {"display_name": "Basic data exploration for NCT", "dependencies": ["pandas", "numpy", "matplotlib"], "keywords": ["pandas", "data exploration", "NCT"], "methodology": ["Data Exploration"], "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.", "command": "generate", "author": "Daniel Wang", "version": "0.0.4"}, {"display_name": "Basic data exploration for NCT", "dependencies": ["pandas", "numpy", "matplotlib"], "keywords": ["pandas", "data exploration", "NCT"], "methodology": ["Data Exploration"], "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.", "command": "generate", "author": "Daniel Wang", "version": "0.0.5"}]
+[
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ],
+        "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.",
+        "display_name": "Basic data exploration for NCT",
+        "keywords": [
+            "pandas",
+            "data exploration",
+            "NCT"
+        ],
+        "methodology": [
+            "Data Exploration"
+        ],
+        "version": "0.0.1"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ],
+        "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.",
+        "display_name": "Basic data exploration for NCT",
+        "keywords": [
+            "pandas",
+            "data exploration",
+            "NCT"
+        ],
+        "methodology": [
+            "Data Exploration"
+        ],
+        "version": "0.0.2"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ],
+        "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.",
+        "display_name": "Basic data exploration for NCT",
+        "keywords": [
+            "pandas",
+            "data exploration",
+            "NCT"
+        ],
+        "methodology": [
+            "Data Exploration"
+        ],
+        "version": "0.0.3"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ],
+        "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.",
+        "display_name": "Basic data exploration for NCT",
+        "keywords": [
+            "pandas",
+            "data exploration",
+            "NCT"
+        ],
+        "methodology": [
+            "Data Exploration"
+        ],
+        "version": "0.0.4"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ],
+        "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.",
+        "display_name": "Basic data exploration for NCT",
+        "keywords": [
+            "pandas",
+            "data exploration",
+            "NCT"
+        ],
+        "methodology": [
+            "Data Exploration"
+        ],
+        "version": "0.0.5"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ],
+        "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.",
+        "display_name": "Basic data exploration for NCT",
+        "keywords": [
+            "pandas",
+            "data exploration",
+            "NCT"
+        ],
+        "methodology": [
+            "Data Exploration"
+        ],
+        "version": "0.0.6"
+    }
+]
