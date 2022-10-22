@@ -192,5 +192,35 @@
         ],
         "read_more_link": "https://github.com/ow-gryphon/gryphon-data-exploration",
         "version": "0.0.7"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "jupyter",
+            "openpyxl",
+            "pandas",
+            "numpy",
+            "matplotlib",
+            "seaborn",
+            "pandas-profiling",
+            "scipy",
+            "scikit-learn"
+        ],
+        "description": "Provides a range of methods for exploring and visualizing a dataset. This includes capability to look across the dataset as well as to investigate individual variables (numerical, categorical) fields in-depth. This does not provide time-aware exploration capabilities, as those are in another package.",
+        "display_name": "General Data Diagnostics",
+        "keywords": [
+            "Data",
+            "Data Diagnostics",
+            "Data Exploration",
+            "Diagnostics",
+            "Data Integrity",
+            "Data Completeness"
+        ],
+        "methodology": [
+            "Data exploration and transformation"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-data-exploration",
+        "version": "0.0.8"
     }
 ]
