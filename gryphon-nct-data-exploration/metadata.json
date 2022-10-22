@@ -118,5 +118,25 @@
             "Data Exploration"
         ],
         "version": "0.0.6"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ],
+        "description": "This template provides examples of data profiling and exploration for both numerical and categorical fields. It relies primarily on pandas and matplotlib capabilities.",
+        "display_name": "Training example - Basic data exploration",
+        "keywords": [
+            "pandas",
+            "data exploration",
+            "NCT"
+        ],
+        "methodology": [
+            "Data exploration and transformation"
+        ],
+        "version": "0.0.7"
     }
 ]
