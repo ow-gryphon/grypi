@@ -44,5 +44,24 @@
         ],
         "topic": [],
         "version": "0.0.3"
+    },
+    {
+        "author": "Vittor Faria Pereira & Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "beautifulsoup4"
+        ],
+        "description": "A basic web scraping template made with the Beautiful Soup (beautifulsoup4) library.",
+        "display_name": "Web scraping",
+        "keywords": [
+            "web scraping",
+            "scraping"
+        ],
+        "methodology": [
+            "Data scraping and parsing"
+        ],
+        "topic": [],
+        "version": "0.0.4"
     }
 ]
