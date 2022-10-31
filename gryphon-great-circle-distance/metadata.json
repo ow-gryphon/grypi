@@ -48,5 +48,31 @@
         "sector": [],
         "topic": [],
         "version": "0.0.2"
+    },
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy"
+        ],
+        "description": "Calculation of distances between geographic locations (defined by longitude and latitude). Useful for identifying nearby competitor stores and branches.",
+        "display_name": "Great circle distance calculations",
+        "keywords": [
+            "Distance",
+            "Geographical",
+            "Geospatial",
+            "Great Circle",
+            "Longitude",
+            "Latitude"
+        ],
+        "methodology": [
+            "Geospatial"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-great-circle-distance",
+        "sector": [],
+        "topic": [],
+        "version": "0.0.3"
     }
 ]
