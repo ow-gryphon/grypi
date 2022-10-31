@@ -164,5 +164,31 @@
         "read_more_link": "https://github.com/ow-gryphon/gryphon-model-plotting-regression",
         "topic": [],
         "version": "0.0.7"
+    },
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "matplotlib",
+            "seaborn",
+            "scipy",
+            "jupyter"
+        ],
+        "description": "Plots to understand relationships between variables and model performance. This imports the Data Exploration template",
+        "display_name": "Plotting tools for regression modeling (bivariate, performance, and diagnostics plots)",
+        "keywords": [
+            "Bivariate",
+            "Regression",
+            "Model diagnostics"
+        ],
+        "methodology": [
+            "Regression"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-model-plotting-regression",
+        "topic": [],
+        "version": "0.0.9"
     }
 ]
