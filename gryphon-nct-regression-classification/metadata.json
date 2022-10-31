@@ -128,5 +128,32 @@
             "Supervised Learning"
         ],
         "version": "0.0.5"
+    },
+    {
+        "author": "Daniel Wang",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "scipy",
+            "matplotlib",
+            "scikit-learn"
+        ],
+        "description": "Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.",
+        "display_name": "Training example - Regression and Classification using sklearn",
+        "keywords": [
+            "sklearn",
+            "regression",
+            "classification",
+            "logistic",
+            "OLS"
+        ],
+        "methodology": [
+            "Regression",
+            "Classification",
+            "Supervised Learning"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-nct-regression-classification",
+        "version": "0.0.6"
     }
 ]
