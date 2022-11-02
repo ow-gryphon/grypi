@@ -154,5 +154,31 @@
         "read_more_link": "https://github.com/ow-gryphon/gryphon-regression-sklearn",
         "topic": [],
         "version": "0.0.7"
+    },
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "numpy",
+            "scikit-learn",
+            "matplotlib",
+            "seaborn",
+            "mlxtend",
+            "jupyter"
+        ],
+        "description": "Methodologies to support building a regression model using sklearn, including variable selection (for linear models) and hyperparameter tuning",
+        "display_name": "Regression using Sklearn (ML focus)",
+        "keywords": [
+            "Regression",
+            "Sklearn",
+            "Scikit-Learn"
+        ],
+        "methodology": [
+            "Regression"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-regression-sklearn",
+        "topic": [],
+        "version": "0.0.9"
     }
 ]
