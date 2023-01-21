@@ -8,6 +8,6 @@
     "author": "Daniel Wang",
     "command": "download",
     "version": "0.0.3",
-    "url": "https://github.com/mmctech/gryphon-nct-regression-classification-test-2"
+    "repo_url": "https://github.com/mmctech/gryphon-nct-regression-classification-test-2"
   }
 ]
