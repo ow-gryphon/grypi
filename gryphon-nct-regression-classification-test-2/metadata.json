@@ -7,6 +7,6 @@
     "methodology": ["Regression", "Classification", "Supervised Learning" ],
     "author": "Daniel Wang",
     "command": "generate",
-    "version": "0.0.4"
+    "version": "0.0.5"
   }
 ]
