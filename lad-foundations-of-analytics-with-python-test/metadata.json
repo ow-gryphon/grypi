@@ -1,7 +1,7 @@
 [
     {
         "display_name": "TESTING REPO DOWNLOAD",
-        "command": "download",
+        "command": "generate",
         "description": "Introductory training to the Python programming language, and data science basics.",
         "author": "Daniel Uken",
         "author_email": "daniel.uken@oliverwyman.com",
