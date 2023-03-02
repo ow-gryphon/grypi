@@ -5,6 +5,7 @@
         "description": "Introductory training to the Python programming language, and data science basics.",
         "author": "Daniel Uken",
         "author_email": "daniel.uken@oliverwyman.com",
-        "version": "0.0.1"
+        "version": "0.0.1",
+        "repo_url": "git@github.com:mmctech/lad-foundations-of-analytics-with-python.git"
     }
 ] 
