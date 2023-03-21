@@ -1,0 +1,29 @@
+[
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "matplotlib",
+            "camelot-py",
+            "opencv-python",
+            "ghostscript",
+            "pdfplumber",
+            "PyPDF2",
+            "PyMuPDF"
+        ],
+        "description": "Provides methods for extracting text and tables from text-based PDF. Currently does not provide OCR based methods for non-text based PDFs",
+        "display_name": "PDF text and table extraction",
+        "keywords": [
+            "pdf",
+            "extraction"
+        ],
+        "methodology": [
+            "Data scraping and parsing"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-pdf-data-extraction",
+        "topic": [],
+        "version": "0.0.1"
+    }
+]
