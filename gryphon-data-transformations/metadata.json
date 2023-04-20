@@ -197,5 +197,39 @@
         "read_more_link": "https://github.com/ow-gryphon/gryphon-data-transformations",
         "topic": [],
         "version": "0.0.9"
+    },
+    {
+        "author": "Daniel Uken",
+        "author_email": "daniel.uken@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "notebook==6.5.4",
+            "qtconsole==5.4.2",
+            "jupyter-console==6.6.3",
+            "nbconvert==7.3.1",
+            "ipykernel==6.22.0",
+            "ipywidgets==8.0.6",
+            "numpy",
+            "pandas",
+            "scikit-learn",
+            "scipy",
+            "matplotlib",
+            "python-dateutil"
+        ],
+        "description": "Provides a range of transformations for cleaning and preprocessing data. This includes transformations for working with datetime data, converting datatypes, scaling numerical data, and categorical data encoding. ",
+        "display_name": "Data transformations",
+        "keywords": [
+            "data",
+            "transformations",
+            "scaling",
+            "data cleaning",
+            "preprocessing"
+        ],
+        "methodology": [
+            "Data exploration and transformation"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-data-transformations",
+        "topic": [],
+        "version": "0.0.10"
     }
 ]
