@@ -131,5 +131,35 @@
         "read_more_link": "https://github.com/ow-gryphon/gryphon-web-scraping",
         "topic": [],
         "version": "0.0.7"
+    },
+    {
+        "author": "Vittor Faria Pereira & Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "notebook==6.5.4",
+            "qtconsole==5.4.2",
+            "jupyter-console==6.6.3",
+            "nbconvert==7.3.1",
+            "ipykernel==6.22.0",
+            "ipywidgets==8.0.6",
+            "beautifulsoup4",
+            "pip-system-certs",
+            "requests",
+            "selenium",
+            "webdriver_manager"
+        ],
+        "description": "A basic web scraping template made with the Beautiful Soup (beautifulsoup4) library.",
+        "display_name": "Web scraping",
+        "keywords": [
+            "web scraping",
+            "scraping"
+        ],
+        "methodology": [
+            "Data scraping and parsing"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-web-scraping",
+        "topic": [],
+        "version": "0.1.0"
     }
 ]
