@@ -1,0 +1,24 @@
+[
+    {
+        "author": "David Lorien Ara Sanz, Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "pandas",
+            "numpy",
+            "cryptography"
+        ],
+        "description": "Anonymization of individual columns within a dataset with transformations (mapping, encoding, perturbation, etc.)",
+        "display_name": "Data Anonymization - Basic",
+        "keywords": [
+            "data anonymization",
+            "data scrubbing",
+            "data perturbation"
+        ],
+        "methodology": [
+            "Data exploration and transformation"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-data-anonymization",
+        "version": "0.0.1"
+    }
+]
