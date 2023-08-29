@@ -1,0 +1,16 @@
+[
+    {
+        "display_name": "Using MMC's GPT API - [MMC Github]",
+        "command": "generate",
+        "dependencies": ["pip-system-certs", "requests", "jupyter", "pandas", "numpy"],
+
+        "keywords": ["GPT", "langchain", "LLM", "Generative AI"],
+        "methodology": ["Text and natural language processing", "Generative AI"],
+      
+        "description": "Examples using langchain with MMC's GPT for chat completions and text embedding",
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+	
+        "read_more_link": "https://github.com/mmctech/gryphon-LLM-MMC-GPT"
+    }
+] 
