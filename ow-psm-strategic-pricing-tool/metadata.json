@@ -1,0 +1,13 @@
+[
+    {
+        "display_name": "PSM Strategic Pricing Tool",
+        "command": "download",
+        "description": "Helps develop pricing for B2B products based on customer and product attributes. The strategic tool sets prices based on cost and product attributes, where the contribution of each attribute is first estimated through regression / optimization, and adjusted as needed to arrive at a more economically sensible pricing relationship. Historical pricing information is used for the initial calibration of coefficients, which helps shed light into how robust historical pricing was done – the less robust, the more constraints and adjustments are needed on the coefficients. ",
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "version": "0.0.1",
+        "repo_url": "git@github.com:mmctech/ow-psm-strategic-pricing-tool.git",
+        "sector": ["Industrial", "Automotive", "Business Services"],
+        "topic": ["Pricing, Marketing and Sales"]
+    }
+] 
