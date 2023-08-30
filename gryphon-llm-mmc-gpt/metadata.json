@@ -1,6 +1,6 @@
 [
     {
-        "display_name": "Using MMC's GPT API - [MMC Github]",
+        "display_name": "MMC's GPT API - [MMC Github]",
         "command": "generate",
         "dependencies": ["pip-system-certs", "requests", "jupyter", "pandas", "numpy"],
 
