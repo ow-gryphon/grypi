@@ -4,10 +4,10 @@
         "command": "generate",
         "dependencies": ["pip-system-certs", "requests", "jupyter", "pandas", "numpy"],
 
-        "keywords": ["GPT", "langchain", "LLM", "Generative AI"],
+        "keywords": ["GPT", "LLM", "Generative AI"],
         "methodology": ["Text and natural language processing", "Generative AI"],
       
-        "description": "Examples using langchain with MMC's GPT for chat completions and text embedding",
+        "description": "Examples MMC's GPT for chat completions and text embedding",
         "author": "Daniel Wang",
         "author_email": "daniel.wang@oliverwyman.com",
 	
