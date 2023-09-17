@@ -14,5 +14,21 @@
         "read_more_link": "https://github.com/mmctech/gryphon-LLM-MMC-GPT",
 	"version": "0.0.1",
         "repo_url": "git@github.com:mmctech/gryphon-LLM-MMC-GPT.git"
+    },
+    {
+        "display_name": "MMC's GPT API - [MMC Github]",
+        "command": "generate",
+        "dependencies": ["pip-system-certs", "requests", "jupyter", "pandas", "numpy"],
+
+        "keywords": ["GPT", "LLM", "Generative AI"],
+        "methodology": ["Text and natural language processing", "Generative AI"],
+      
+        "description": "Examples MMC's GPT for chat completions and text embedding",
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+	
+        "read_more_link": "https://github.com/mmctech/gryphon-LLM-MMC-GPT",
+	"version": "0.0.2",
+        "repo_url": "git@github.com:mmctech/gryphon-LLM-MMC-GPT.git"
     }
 ] 
