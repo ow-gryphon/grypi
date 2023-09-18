@@ -9,6 +9,7 @@
         "repo_url": "git@github.com:mmctech/ow-psm-strategic-pricing-tool.git",
         "sector": ["Industrial", "Automotive", "Business Services"],
         "topic": ["Pricing, Marketing and Sales"],
-        "shell_exec": "python -m venv venv & venv\\scripts\\activate & pip install -r requirements.txt"
+        "shell_exec": "python -m venv venv & venv\\scripts\\activate & pip install -r requirements.txt",
+        "shell_exec_description": "Set up Virtual Environment and installs Python package requirements"
     }
 ] 
