@@ -28,7 +28,7 @@
         "author_email": "daniel.wang@oliverwyman.com",
 	
         "read_more_link": "https://github.com/mmctech/gryphon-LLM-MMC-GPT",
-	"version": "0.0.2",
+	"version": "0.0.3",
         "repo_url": "git@github.com:mmctech/gryphon-LLM-MMC-GPT.git"
     }
 ] 
