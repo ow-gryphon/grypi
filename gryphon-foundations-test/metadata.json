@@ -1,7 +1,7 @@
 [
     {
         "display_name": "Test template - FOR TESTING ONLY",
-        "command": "init",
+        "command": "generate",
         "description": "Test template",
         "author": "Daniel Uken",
         "author_email": "daniel.uken@oliverwyman.com",
