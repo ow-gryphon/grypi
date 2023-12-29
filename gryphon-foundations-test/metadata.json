@@ -1,0 +1,12 @@
+[
+    {
+        "display_name": "Test template - FOR TESTING ONLY",
+        "command": "init",
+        "description": "Test template",
+        "author": "Daniel Uken",
+        "author_email": "daniel.uken@oliverwyman.com",
+        "version": "0.0.1",
+        "repo_url": "git@github.com:mmctech/gryphon-foundations-test"
+        "approver": "daniel.uken@oliverwyman.com"
+    }
+] 
