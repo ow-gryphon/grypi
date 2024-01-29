@@ -1,6 +1,6 @@
 [
     {
-        "display_name": "Top Down Sales Target Allocation for Banks",
+        "display_name": "Top Down Sales Target Allocation for Banks - [MMC Github]",
         "command": "generate",
         "dependencies": ["numpy","pandas","scikit-learn","matplotlib","seaborn"],
 
