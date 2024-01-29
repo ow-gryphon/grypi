@@ -1,0 +1,20 @@
+[
+    {
+        "display_name": "Top Down Sales Target Allocation for Banks",
+        "command": "generate",
+        "dependencies": ["numpy","pandas","scikit-learn","matplotlib","seaborn"],
+
+        "keywords": ["Sales Target Allocation", "New to Bank", "Customer Value"],
+        "methodology": [],
+        "topic": ["Customer Management"],
+        "sector": ["Banking"],
+
+        "description": "Model sales and allocate sales targets for a bank's network using regressions",
+        "author": "Sebastian Voll",
+        "author_email": "sebastian.voll@oliverwyman.com",
+	
+        "read_more_link": "https://github.com/mmctech/gryphon-sales-target-allocation-fs-rbb",
+	      "version": "0.0.1",
+        "repo_url": "git@github.com:mmctech/gryphon-sales-target-allocation-fs-rbb.git"
+    }
+]
