@@ -1,0 +1,20 @@
+[
+    {
+        "display_name": "Transaction Feature Engineering",
+        "command": "generate",
+        "dependencies": ["pandas", "numpy", "matplotlib", "jupyter"],
+    
+        "keywords": ["Transaction", "Feature engineering", "Bank statements"],
+        "methodology": ["Data exploration and transformation"],
+        "topic": ["Risk Management"],
+        "sector": ["Banking"],
+    
+        "description": "Methodologies to support building features from transaction data (bank statements) for downstream use in credit risk models, hardship, AML, etc.",
+        "author": "Michael Delanty",
+        "author_email": "michael.delanty@oliverwyman.com",
+
+        "read_more_link": "https://github.com/mmctech/gryphon-transaction_feature_engineering",
+	      "version": "0.0.1",
+        "repo_url": "git@github.com:mmctech/gryphon-sales-target-allocation-fs-rbb.git"
+    }
+]
