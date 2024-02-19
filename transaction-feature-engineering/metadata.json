@@ -14,7 +14,7 @@
         "author_email": "michael.delanty@oliverwyman.com",
 
         "read_more_link": "https://github.com/mmctech/gryphon-transaction_feature_engineering",
-	      "version": "0.0.1",
-        "repo_url": "git@github.com:mmctech/gryphon-sales-target-allocation-fs-rbb.git"
+	"version": "0.0.1",
+        "repo_url": "git@github.com:mmctech/gryphon-transaction_feature_engineering.git"
     }
 ]
