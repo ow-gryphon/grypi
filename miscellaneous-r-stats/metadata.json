@@ -6,6 +6,7 @@
         "author": "Daniel Wang",
         "author_email": "daniel.wang@oliverwyman.com",
         "version": "0.0.1",
-        "repo_url": "www.github.com:ow-gryphon/miscellaneous-r-stats"
+        "repo_url": "https://github.com/ow-gryphon/miscellaneous-r-stats.git",
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-data-transformations"
     }
 ] 
