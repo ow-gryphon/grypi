@@ -21,5 +21,28 @@
         "read_more_link": "https://github.com/ow-gryphon/gryphon-distribution-fitting",
         "topic": [],
         "version": "0.0.1"
+    },
+    {
+        "author": "Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "numpy",
+            "scipy",
+            "matplotlib"
+        ],
+        "description": "Fit data to various distributions",
+        "display_name": "Distribution Fitting",
+        "keywords": [
+            "Distribution Fitting",
+            "Fitting Data",
+            "Distribution"
+        ],
+        "methodology": [
+            "Data exploration and transformation"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-distribution-fitting",
+        "topic": [],
+        "version": "0.0.1"
     }
 ]
