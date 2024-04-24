@@ -137,5 +137,29 @@
         "read_more_link": "https://github.com/ow-gryphon/gryphon-nlp-sentiment-analysis",
         "topic": [],
         "version": "0.0.7"
+    },
+    {
+        "author": "Vittor Faria Pereira and Daniel Wang",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "jupyter",
+            "pandas",
+            "numpy",
+            "scikit-learn"
+        ],
+        "description": "Template for sentiment modeling from texts",
+        "display_name": "Sentiment Analysis",
+        "keywords": [
+            "nlp",
+            "text",
+            "sentiment"
+        ],
+        "methodology": [
+            "Text and natural language processing"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-nlp-sentiment-analysis",
+        "topic": [],
+        "version": "0.0.8"
     }
 ]
