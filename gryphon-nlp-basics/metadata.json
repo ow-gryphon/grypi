@@ -145,5 +145,31 @@
         "read_more_link": "https://github.com/ow-gryphon/gryphon-nlp-basics",
         "topic": [],
         "version": "0.0.7"
+    },
+    {
+        "author": "Daniel Wang and Vittor Faria Pereira",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "jupyter",
+            "pandas",
+            "numpy",
+            "scikit-learn",
+            "gensim",
+            "nltk"
+        ],
+        "description": "Basic NLP toolkit template",
+        "display_name": "Basic examples of text processing",
+        "keywords": [
+            "nlp",
+            "text",
+            "natural language"
+        ],
+        "methodology": [
+            "Text and natural language processing"
+        ],
+        "read_more_link": "https://github.com/ow-gryphon/gryphon-nlp-basics",
+        "topic": [],
+        "version": "0.0.8"
     }
 ]
