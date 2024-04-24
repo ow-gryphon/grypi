@@ -56,5 +56,28 @@
             "Export"
         ],
         "version": "0.0.3"
+    },
+    {
+        "author": "OW DNA Team",
+        "author_email": "daniel.wang@oliverwyman.com",
+        "command": "generate",
+        "dependencies": [
+            "jupyter",
+            "numpy",
+            "pandas",
+            "openpyxl",
+            "xlwings"
+        ],
+        "description": "Utilities for exporting data to Excel. Currently, this provides a method for exporting into existing Excel files (that could contain Excel formula)",
+        "display_name": "Utilities for exporting to Excel files",
+        "keywords": [
+            "Excel",
+            "export"
+        ],
+        "methodology": [
+            "Other",
+            "Export"
+        ],
+        "version": "0.0.4"
     }
 ]
