@@ -1,12 +1,13 @@
 [
     {
-        "display_name": "Foundations of Analytics with Python",
+        "display_name": "You must download New Gryphon, go to: https://owlabs.atlassian.net/wiki/spaces/Gryphon/overview",
         "command": "download",
-        "description": "Introductory training to the Python programming language, and data science basics.",
+        "description": "You must download New Gryphon, go to: https://owlabs.atlassian.net/wiki/spaces/Gryphon/overview",
         "author": "Daniel Uken",
         "author_email": "daniel.uken@oliverwyman.com",
         "version": "0.0.1",
         "repo_url": "git@github.com:mmctech/foundations-of-analytics-with-python.git",
+		"read_more_link": "https://owlabs.atlassian.net/wiki/spaces/Gryphon/overview",
         "sector": []
     }
 ] 
